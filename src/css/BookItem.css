@@ -1,0 +1,42 @@
+a {
+    color: black !important;
+}
+.box {
+    background-color: white;
+    border-radius: 0px;
+    overflow: hidden;
+    height: 400px;
+    max-height: 35vh;
+    min-width: 150px;
+    -webkit-box-shadow: 5px 5px 0px rgba(0,0,0,0.3);
+    box-shadow: 5px 5px 0px rgba(0,0,0,0.3);
+    margin: 20px;
+    border: 1px solid rgba(0,0,0,0.3);
+}
+
+.grid {
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    -webkit-flex-direction: row;
+}
+
+.grid > div {
+    -webkit-flex-basis: calc(20% - 40px); /* Safari */
+    flex-basis: calc(20% - 40px);
+    min-height: 300px;
+}
+
+.thumbnailImg {
+    margin: 5px;
+    border: 1px solid rgba(0,0,0,0.1);
+}
+
+.bookCard {
+    height: 100%;
+    border: none !important;
+    text-align: center;
+}
